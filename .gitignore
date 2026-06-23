@@ -45,6 +45,10 @@ node_modules/
 pagefind/
 static/pagefind/
 
+# Local pre-camera-ready papers. Add final public PDFs explicitly when ready.
+static/uploads/papers/age-eccv26.pdf
+static/uploads/papers/cast3d-eccv26.pdf
+
 # ============================================================================
 # Operating System
 # ============================================================================
