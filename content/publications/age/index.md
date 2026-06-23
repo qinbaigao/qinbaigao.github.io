@@ -14,7 +14,9 @@ tags:
   - 3D Editing
   - Multi-agent Systems
 featured: true
-links: []
+links:
+  - name: PDF
+    url: /uploads/papers/age-eccv26.pdf
 ---
 
-Accepted by ECCV 2026. The camera-ready version will be added after release.
+Accepted by ECCV 2026. The PDF will be updated to the camera-ready version after release.

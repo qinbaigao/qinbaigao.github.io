@@ -14,7 +14,9 @@ tags:
   - 3D Generation
   - Asset Customization
 featured: true
-links: []
+links:
+  - name: PDF
+    url: /uploads/papers/cast3d-eccv26.pdf
 ---
 
-Accepted by ECCV 2026. The camera-ready version will be added after release.
+Accepted by ECCV 2026. The PDF will be updated to the camera-ready version after release.
