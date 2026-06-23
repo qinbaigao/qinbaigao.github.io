@@ -13,9 +13,9 @@ sections:
         text: Download CV
         url: uploads/resume.pdf
       headings:
-        about: ''
-        education: ''
-        interests: ''
+        about: About
+        education: Education
+        interests: Research Interests
     design:
       background:
         gradient_mesh:
@@ -27,20 +27,20 @@ sections:
         shape: circle
   - block: markdown
     content:
-      title: 'My Research'
+      title: 'Research'
       subtitle: ''
       text: |-
-        My research interests span multimodal large language models, 3D AI-generated content (3D-AIGC), and self-supervised learning.
+        I study 3D vision and generative 3D content creation, especially methods built around 3D Gaussian Splatting. My recent work explores native 3D Gaussian editing, robust 3D asset protection, image-to-3D generation, and agentic systems that can plan, revise, and execute complex editing instructions in 3D scenes.
 
-        I am particularly interested in how large-scale models can understand and generate visual and 3D content from multi-modal inputs, as well as learning effective representations without human annotations.
+        I also work on self-supervised representation learning for visual and skeleton-based understanding, including contrastive learning, action recognition, gait recognition, and efficient perception models.
 
-        Feel free to reach out if you are interested in collaboration!
+        I am always interested in collaboration around 3D-AIGC, interactive content editing, and learning systems that connect perception, generation, and controllable creation.
     design:
       columns: '1'
   - block: collection
     id: papers
     content:
-      title: Featured Publications
+      title: Selected Publications
       filters:
         folders:
           - publications
@@ -50,7 +50,7 @@ sections:
       columns: 2
   - block: collection
     content:
-      title: Recent Publications
+      title: Publications
       text: ''
       filters:
         folders:

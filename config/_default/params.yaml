@@ -12,11 +12,11 @@ hugoblox:
   # Site-level branding (for people/profiles, use the author system in content/authors/)
   # ────────────────────────────────────────────────────────────────────────────
   identity:
-    name: "Your Name"
-    organization: ""
+    name: "Hao Qin"
+    organization: "Zhejiang University"
     type: person
-    tagline: "Ph.D. Student | Multimodal LLMs | 3D-AIGC | Self-supervised Learning"
-    description: "Academic homepage of a Ph.D. student researching multimodal large language models, 3D-AIGC, and self-supervised learning."
+    tagline: "Ph.D. Student | 3D Vision | Multi-Agent Systems | 3D-AIGC"
+    description: "Academic homepage of Hao Qin, a Ph.D. student at Zhejiang University researching 3D vision, 3D Gaussian Splatting, 3D-AIGC, and multi-agent systems."
     social:
       twitter: ""
 
@@ -31,7 +31,7 @@ hugoblox:
     pack: "default"
     # Optional: Override theme pack colors
     colors:
-      primary: "" # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
+      primary: "emerald" # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
       secondary: ""
       neutral: "" # Affects gray utilities (text-gray-*, bg-gray-*)
     # Optional: Mode-specific color overrides
@@ -62,7 +62,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   layout:
     # Border radius: 'none', 'sm', 'md', 'lg', or 'full'
-    radius: "md"
+    radius: "sm"
     # Spacing density: 'compact', 'comfortable', or 'spacious'
     spacing: "spacious"
     # Avatar shape in author profiles

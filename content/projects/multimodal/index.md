@@ -1,10 +1,11 @@
 ---
-title: "Multimodal Understanding"
-summary: "Exploring how multimodal LLMs can understand and reason about visual content."
+title: "3D-aware Visual Composition"
+summary: "Methods that connect image generation, depth, object identity, and 3D spatial constraints for controllable visual composition."
 tags:
-  - Multimodal LLMs
-  - Vision-Language
+  - 3D-aware Editing
+  - Diffusion Models
+  - Visual Composition
 date: "2023-09-01T00:00:00Z"
 ---
 
-Placeholder project. Replace with your actual research project details.
+This direction focuses on controllable image and scene composition with explicit 3D spatial reasoning, including placing objects at user-specified 3D positions while preserving depth, occlusion, and scene coherence.

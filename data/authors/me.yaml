@@ -2,9 +2,9 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Your Name
-  given: ""
-  family: ""
+  display: Hao Qin
+  given: Hao
+  family: Qin
   alternate: ""
   pronunciation: ""
   pronouns: ""
@@ -13,48 +13,65 @@ status:
   icon: ""
 role: Ph.D. Student in Artificial Intelligence
 bio: |
-  I am a Ph.D. student researching at the intersection of multimodal large
-  language models, 3D AI-generated content, and self-supervised learning.
-  My work aims to advance the understanding and generation of visual and 3D
-  content through large-scale models.
+  I am a Ph.D. student in the College of Computer Science and Technology at
+  Zhejiang University. My research focuses on 3D vision, 3D Gaussian Splatting,
+  3D-AIGC, and multi-agent systems, with broader interests in self-supervised
+  representation learning and embodied visual content creation.
 
 affiliations:
-  - name: Your University
-    url: ""
+  - name: Zhejiang University
+    url: "https://www.zju.edu.cn/english/"
 
 links:
   - icon: at-symbol
-    url: mailto:your-email@example.com
+    url: mailto:12321248@zju.edu.cn
     label: E-mail Me
   - icon: brands/github
-    url: https://github.com/your-username
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/your-profile/
+    url: https://github.com/qinbaigao
 
 interests:
-  - Multimodal Large Language Models
+  - 3D Vision
+  - 3D Gaussian Splatting
   - 3D AI-Generated Content (3D-AIGC)
+  - Multi-agent Systems
   - Self-supervised Learning
 
 education:
   - degree: Ph.D. in Artificial Intelligence
-    institution: Your University
-    start: 2022-09-01
+    institution: Zhejiang University
+    start: 2023-09-01
+    end: 2027-06-30
     summary: |
-      Research focus on multimodal LLMs, 3D-AIGC, and self-supervised learning.
-  - degree: B.S. in Computer Science
-    institution: Your University
-    start: 2018-09-01
-    end: 2022-06-30
+      Research on 3D vision and multi-agent systems.
+  - degree: M.S. in Pattern Recognition
+    institution: Shandong University
+    start: 2020-09-01
+    end: 2023-06-30
+    summary: |
+      Research on computer vision, machine learning, and gait recognition.
+  - degree: B.Eng. in Automation
+    institution: Shandong University
+    start: 2016-09-01
+    end: 2020-06-30
 
 experience:
-  - role: Research Assistant
-    org: Your Lab
-    start: 2022-09-01
+  - role: Ph.D. Student
+    org: Zhejiang University
+    start: 2023-09-01
     summary: |
-      Conducting research on multimodal large language models and 3D content generation.
+      Researching 3D vision, 3D Gaussian editing/generation, and multi-agent systems.
+  - role: AutoML Algorithm Intern
+    org: Meituan AI, Visual Intelligence Department
+    start: 2022-04-01
+    end: 2022-07-31
+    summary: |
+      Worked on YOLOv6 model architecture development and COCO experiments.
+  - role: M.S. Student
+    org: Shandong University
+    start: 2020-09-01
+    end: 2023-06-30
+    summary: |
+      Studied computer vision and machine learning with a focus on gait recognition.
 
 skills:
   - name: Technical Skills
@@ -71,6 +88,10 @@ skills:
         level: 4
       - label: Experiment Design
         level: 4
+      - label: 3D Gaussian Splatting
+        level: 5
+      - label: Computer Vision
+        level: 5
 
 languages:
   - name: Chinese
