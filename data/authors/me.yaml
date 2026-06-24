@@ -26,8 +26,6 @@ links:
   - icon: at-symbol
     url: mailto:12321248@zju.edu.cn
     label: E-mail Me
-  - icon: brands/github
-    url: https://github.com/qinbaigao
 
 education:
   - degree: Ph.D. in Artificial Intelligence
