@@ -2,7 +2,7 @@
 title: "AGE: Agentic Gaussian Editing in 3D Scenarios"
 authors:
   - me
-date: "2026-07-01T00:00:00Z"
+date: "2026-06-24T00:00:00Z"
 publication_types: ["paper-conference"]
 publication:
   name: "European Conference on Computer Vision"

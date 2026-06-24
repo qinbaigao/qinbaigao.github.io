@@ -5,6 +5,3 @@ main:
   - name: Publications
     url: /#papers
     weight: 20
-  - name: Projects
-    url: /#projects
-    weight: 30

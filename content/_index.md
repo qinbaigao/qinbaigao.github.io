@@ -28,32 +28,15 @@ sections:
   - block: collection
     id: papers
     content:
-      title: Selected Publications
-      filters:
-        folders:
-          - publications
-        featured_only: true
-    design:
-      view: article-grid
-      columns: 2
-  - block: collection
-    content:
       title: Publications
       text: ''
+      count: 0
       filters:
         folders:
           - publications
         exclude_featured: false
     design:
-      view: citation
-  - block: collection
-    id: projects
-    content:
-      title: Projects
-      filters:
-        folders:
-          - projects
-    design:
-      view: article-grid
-      columns: 3
+      view: publication-detail
+      show_date: false
+      show_read_time: false
 ---
