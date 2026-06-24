@@ -29,13 +29,6 @@ links:
   - icon: brands/github
     url: https://github.com/qinbaigao
 
-interests:
-  - 3D Vision
-  - 3D Gaussian Splatting
-  - 3D AI-Generated Content (3D-AIGC)
-  - Multi-agent Systems
-  - Self-supervised Learning
-
 education:
   - degree: Ph.D. in Artificial Intelligence
     institution: Zhejiang University

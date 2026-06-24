@@ -15,7 +15,6 @@ sections:
       headings:
         about: About
         education: Education
-        interests: Research Interests
     design:
       background:
         gradient_mesh:
