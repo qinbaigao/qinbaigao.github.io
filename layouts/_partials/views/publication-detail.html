@@ -4,11 +4,20 @@
 {{ $pub := partial "functions/resolve_publication.html" $item }}
 {{ $has_attachments := partial "functions/has_attachments" $item }}
 {{ $summary := $item.Params.abstract | default (partial "functions/get_summary" $item) }}
+{{ $resource := partial "functions/get_featured_image.html" $item }}
 {{ $top_award := "" }}
 {{ with $item.Params.awards }}{{ $top_award = index . 0 }}{{ end }}
 
 <article class="w-full rounded-lg border border-zinc-200/80 bg-white/90 p-5 shadow-sm transition-colors hover:border-primary-300 dark:border-zinc-800 dark:bg-zinc-950/70 dark:hover:border-primary-700">
-  <div class="space-y-3">
+  <div class="flex flex-col gap-5 sm:flex-row">
+    {{ with $resource }}
+      {{ $image := .Fill "480x270 Center" }}
+      <a class="block overflow-hidden rounded-md border border-zinc-200 bg-zinc-50 sm:w-48 sm:flex-none dark:border-zinc-800 dark:bg-zinc-900" href="{{ $item.RelPermalink }}" aria-label="{{ $item.Title | plainify }}">
+        <img class="aspect-video h-full w-full object-cover transition-transform duration-300 hover:scale-105" src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" loading="lazy" decoding="async" alt="{{ $item.Title | plainify }} thumbnail">
+      </a>
+    {{ end }}
+
+    <div class="min-w-0 flex-1 space-y-3">
     <div class="flex flex-wrap items-center gap-2 text-xs font-semibold uppercase tracking-normal text-zinc-500 dark:text-zinc-400">
       {{ with $pub.display_short }}
         <span class="rounded-md bg-primary-50 px-2 py-1 text-primary-700 dark:bg-primary-950/50 dark:text-primary-300">{{ . | markdownify }}</span>
@@ -48,5 +57,6 @@
         {{ end }}
       </div>
     {{ end }}
+    </div>
   </div>
 </article>
