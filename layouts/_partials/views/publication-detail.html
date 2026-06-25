@@ -33,7 +33,19 @@
     </h3>
 
     <div class="article-metadata text-sm text-zinc-600 dark:text-zinc-400">
-      {{ partial "page_metadata_authors" $item }}
+      {{ $authors := $item.Params.authors }}
+      {{ if $authors }}
+        {{ if not (reflect.IsSlice $authors) }}{{ $authors = slice $authors }}{{ end }}
+        {{ range $index, $raw := $authors }}
+          {{ $slug := $raw | urlize }}
+          {{ $profile := partial "functions/get_author_profile" (dict "slug" $slug "title" $raw) }}
+          {{ $display := $profile.title | default $raw }}
+          {{ $display_slug := $display | urlize }}
+          {{ $is_me := or (eq $raw "me") (eq $slug "me") (eq $slug "hao-qin") (eq $display_slug "hao-qin") }}
+          {{ if gt $index 0 }}, {{ end }}
+          <span{{ if $is_me }} class="font-bold text-zinc-900 dark:text-zinc-100"{{ end }}>{{ $display }}</span>
+        {{ end }}
+      {{ end }}
     </div>
 
     {{ with $summary }}
