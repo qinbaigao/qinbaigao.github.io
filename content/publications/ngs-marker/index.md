@@ -2,6 +2,13 @@
 title: "NGS-Marker: Robust Native Watermarking for 3D Gaussian Splatting"
 authors:
   - me
+  - Yukai Sun
+  - Luyuan Chen
+  - Mengxu Lu
+  - Feng Zhang
+  - Ming Kong
+  - Zhenhong Du
+  - Qiang Zhu
 date: "2026-01-01T00:00:00Z"
 publication_types: ["paper-conference"]
 publication:

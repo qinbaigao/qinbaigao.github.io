@@ -2,6 +2,11 @@
 title: "Variation-aware Flexible 3D Gaussian Editing"
 authors:
   - me
+  - Yukai Sun
+  - Meng Wang
+  - Ming Kong
+  - Mengxu Lu
+  - Qiang Zhu
 date: "2026-01-01T00:00:00Z"
 publication_types: ["paper-conference"]
 publication:
