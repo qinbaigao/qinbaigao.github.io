@@ -240,8 +240,8 @@
             var dx = pointer.x - p.x;
             var dy = pointer.y - p.y;
             var dist = Math.sqrt(dx * dx + dy * dy);
-            if (dist < 115 && dist > 1) {
-              var pull = (1 - dist / 115) * 0.0065 * elapsed;
+            if (dist < 132 && dist > 1) {
+              var pull = (1 - dist / 132) * 0.01225 * elapsed;
               p.x += dx * pull;
               p.y += dy * pull;
             }
