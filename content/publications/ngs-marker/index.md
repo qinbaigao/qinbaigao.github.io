@@ -24,6 +24,8 @@ featured: true
 links:
   - name: PDF
     url: /uploads/papers/ngs-marker-iclr26.pdf
+  - name: Demo
+    url: /uploads/videos/ngs-marker-demo.mp4
 ---
 
 This work addresses ownership protection for explicit 3DGS assets, especially when rendered-image watermarking is insufficient for partial 3D infringement.

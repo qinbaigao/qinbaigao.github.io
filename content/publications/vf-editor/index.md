@@ -22,6 +22,8 @@ featured: true
 links:
   - name: PDF
     url: /uploads/papers/vf-editor-iclr26.pdf
+  - name: Demo
+    url: /uploads/videos/di-editor-demo.mp4
 ---
 
 VF-Editor studies how to perform flexible edits directly in 3D Gaussian space, reducing cross-view inconsistency introduced by editing rendered 2D views first.
