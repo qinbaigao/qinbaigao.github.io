@@ -8,6 +8,10 @@ authors:
   - Mengxu Lu
   - Qiang Zhu
 date: "2026-01-02T00:00:00Z"
+weight: 130
+author_notes:
+  - "Equal contribution"
+  - "Equal contribution"
 publication_types: ["paper-conference"]
 publication:
   name: "International Conference on Learning Representations"

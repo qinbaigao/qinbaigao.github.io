@@ -31,6 +31,8 @@ sections:
         folders:
           - publications
         exclude_featured: false
+      sort_by: Weight
+      sort_ascending: true
     design:
       view: publication-detail
       show_date: false

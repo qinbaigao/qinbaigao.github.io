@@ -7,6 +7,7 @@ authors:
   - Luyuan Chen
   - Qiang Zhu
 date: "2024-07-15T00:00:00Z"
+weight: 390
 publication_types: ["paper-conference"]
 publication:
   name: "IEEE International Conference on Multimedia and Expo"

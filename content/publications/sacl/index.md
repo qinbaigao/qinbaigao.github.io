@@ -9,6 +9,10 @@ authors:
   - Jiang Zhu
   - Qiang Zhu
 date: "2025-02-06T00:00:00Z"
+weight: 220
+author_notes:
+  - "Equal contribution"
+  - "Equal contribution"
 publication_types: ["article-journal"]
 publication:
   name: "Machine Learning"

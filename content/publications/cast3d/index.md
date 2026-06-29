@@ -11,6 +11,10 @@ authors:
   - Feng Zhang
   - Qiang Zhu
 date: "2026-06-24T00:00:00Z"
+weight: 110
+author_notes:
+  - "Equal contribution"
+  - "Equal contribution"
 publication_types: ["paper-conference"]
 publication:
   name: "European Conference on Computer Vision"

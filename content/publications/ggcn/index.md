@@ -7,6 +7,10 @@ authors:
   - Q. M. Jonathan Wu
   - Mengxu Lu
 date: "2026-01-01T00:00:00Z"
+weight: 140
+author_notes:
+  - "Equal contribution"
+  - "Equal contribution"
 publication_types: ["article-journal"]
 publication:
   name: "Journal of Visual Communication and Image Representation"
