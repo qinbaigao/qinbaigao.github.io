@@ -14,9 +14,11 @@ status:
 role: Ph.D. Student in Artificial Intelligence
 bio: |
   I am a Ph.D. student in the College of Computer Science and Technology at
-  Zhejiang University. My research focuses on 3D vision, 3D Gaussian Splatting,
-  3D-AIGC, and multi-agent systems, with broader interests in self-supervised
-  representation learning and embodied visual content creation.
+  Zhejiang University. My research focuses on spatial intelligence, 3D-AIGC,
+  multi-agent systems, latent-space reasoning for vision-language models, and
+  self-supervised learning, with a broader interest in building intelligent
+  systems that connect perception, reasoning, generation, and controllable
+  creation in 3D environments.
 
 affiliations:
   - name: Zhejiang University
