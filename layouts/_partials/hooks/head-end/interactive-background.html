@@ -1,18 +1,30 @@
+<script>
+  document.documentElement.classList.add("dark");
+  document.documentElement.setAttribute("data-wc-theme-default", "dark");
+  document.documentElement.style.colorScheme = "dark";
+</script>
+
 <style>
+  html {
+    color-scheme: dark;
+  }
+
   body.page-wrapper {
     isolation: isolate;
     background:
-      radial-gradient(circle at 18% 8%, rgba(125, 211, 252, 0.2), transparent 28rem),
-      radial-gradient(circle at 82% 22%, rgba(99, 102, 241, 0.12), transparent 26rem),
-      linear-gradient(180deg, #f7fbff 0%, #ffffff 46%, #f8fbff 100%);
+      radial-gradient(circle at 14% 6%, rgba(56, 189, 248, 0.2), transparent 30rem),
+      radial-gradient(circle at 86% 18%, rgba(99, 102, 241, 0.18), transparent 28rem),
+      radial-gradient(circle at 48% 84%, rgba(8, 145, 178, 0.1), transparent 34rem),
+      linear-gradient(180deg, #02040a 0%, #050914 44%, #020308 100%);
   }
 
   html.dark body.page-wrapper,
   .dark body.page-wrapper {
     background:
-      radial-gradient(circle at 18% 8%, rgba(14, 165, 233, 0.16), transparent 28rem),
-      radial-gradient(circle at 82% 22%, rgba(129, 140, 248, 0.13), transparent 26rem),
-      linear-gradient(180deg, #07111f 0%, #0b1220 48%, #09090b 100%);
+      radial-gradient(circle at 14% 6%, rgba(56, 189, 248, 0.2), transparent 30rem),
+      radial-gradient(circle at 86% 18%, rgba(99, 102, 241, 0.18), transparent 28rem),
+      radial-gradient(circle at 48% 84%, rgba(8, 145, 178, 0.1), transparent 34rem),
+      linear-gradient(180deg, #02040a 0%, #050914 44%, #020308 100%);
   }
 
   #page-bg {
@@ -27,10 +39,10 @@
     content: "";
     position: absolute;
     inset: 0;
-    opacity: 0.46;
+    opacity: 0.34;
     background-image:
-      linear-gradient(rgba(14, 116, 144, 0.08) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(14, 116, 144, 0.08) 1px, transparent 1px);
+      linear-gradient(rgba(125, 211, 252, 0.1) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(125, 211, 252, 0.1) 1px, transparent 1px);
     background-size: 44px 44px;
     mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), transparent 76%);
   }
@@ -39,10 +51,10 @@
     content: "";
     position: absolute;
     inset: 0;
-    opacity: 0.62;
+    opacity: 0.46;
     background:
-      linear-gradient(115deg, transparent 0 38%, rgba(56, 189, 248, 0.08) 48%, transparent 58% 100%),
-      linear-gradient(72deg, transparent 0 54%, rgba(79, 70, 229, 0.065) 62%, transparent 72% 100%);
+      linear-gradient(115deg, transparent 0 38%, rgba(56, 189, 248, 0.12) 48%, transparent 58% 100%),
+      linear-gradient(72deg, transparent 0 54%, rgba(129, 140, 248, 0.1) 62%, transparent 72% 100%);
   }
 
   .dark #page-bg::before {
@@ -74,11 +86,56 @@
 
   .page-header {
     z-index: 30;
+    border-bottom: 1px solid rgba(125, 211, 252, 0.14);
+    background: rgba(2, 6, 15, 0.74);
+    box-shadow: 0 18px 44px -32px rgba(56, 189, 248, 0.5);
+    backdrop-filter: blur(18px) saturate(1.2);
+    -webkit-backdrop-filter: blur(18px) saturate(1.2);
+  }
+
+  #site-header,
+  #site-header .navbar {
+    background: transparent;
+  }
+
+  .page-header a,
+  .page-header button,
+  .page-header select {
+    color: #dbeafe !important;
+  }
+
+  .theme-toggle,
+  select[onchange*="data-theme-pack"] {
+    display: none !important;
+  }
+
+  .page-body {
+    color: #dbeafe;
   }
 
   #section-resume-biography-3 > .absolute.inset-0.-z-10 {
-    opacity: 0.42;
-    filter: saturate(0.75) hue-rotate(8deg);
+    opacity: 0.28;
+    filter: saturate(0.9) hue-rotate(10deg);
+  }
+
+  #section-resume-biography-3 h1,
+  #papers .text-3xl {
+    color: #f8fbff;
+    text-shadow: 0 0 26px rgba(56, 189, 248, 0.22);
+  }
+
+  #section-resume-biography-3 .resume-biography p,
+  #section-resume-biography-3 .resume-biography .text-gray-700,
+  #section-resume-biography-3 .resume-biography .dark\:text-gray-300 {
+    color: #cbd5e1;
+  }
+
+  #section-resume-biography-3 .resume-biography .bg-gradient-to-br {
+    border-color: rgba(125, 211, 252, 0.14);
+    background:
+      linear-gradient(145deg, rgba(15, 23, 42, 0.84), rgba(2, 6, 23, 0.72)),
+      radial-gradient(circle at 0% 0%, rgba(56, 189, 248, 0.14), transparent 18rem);
+    box-shadow: 0 18px 46px -34px rgba(56, 189, 248, 0.45);
   }
 
   #section-resume-biography-3 .avatar-wrapper {
@@ -93,6 +150,13 @@
   #papers article {
     position: relative;
     overflow: hidden;
+    border-color: rgba(125, 211, 252, 0.14);
+    background:
+      linear-gradient(145deg, rgba(8, 13, 25, 0.9), rgba(4, 7, 14, 0.84)),
+      radial-gradient(circle at 100% 0%, rgba(56, 189, 248, 0.1), transparent 18rem);
+    box-shadow: 0 16px 44px -34px rgba(15, 23, 42, 0.9);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
     transition:
       transform 220ms ease,
       border-color 220ms ease,
@@ -113,7 +177,10 @@
 
   #papers article:hover {
     transform: translateY(-3px);
-    box-shadow: 0 18px 42px -28px rgba(2, 132, 199, 0.45);
+    border-color: rgba(125, 211, 252, 0.34);
+    box-shadow:
+      0 18px 42px -28px rgba(56, 189, 248, 0.65),
+      0 0 0 1px rgba(125, 211, 252, 0.06) inset;
   }
 
   #papers article:hover::before {
@@ -127,6 +194,43 @@
 
   .dark #papers article:hover {
     box-shadow: 0 18px 42px -28px rgba(56, 189, 248, 0.4);
+  }
+
+  #papers article h3 a,
+  #papers article .text-zinc-950,
+  #papers article .dark\:text-zinc-50 {
+    color: #f8fafc;
+  }
+
+  #papers article p,
+  #papers article .text-zinc-700,
+  #papers article .dark\:text-zinc-300 {
+    color: #cbd5e1;
+  }
+
+  #papers article .article-metadata,
+  #papers article .text-zinc-600,
+  #papers article .dark\:text-zinc-400 {
+    color: #94a3b8;
+  }
+
+  #papers article .font-bold.text-zinc-900,
+  #papers article .font-bold.dark\:text-zinc-100 {
+    color: #ffffff;
+  }
+
+  #papers article .bg-primary-50,
+  #papers article .dark\:bg-primary-950\/50 {
+    border: 1px solid rgba(125, 211, 252, 0.16);
+    background: rgba(8, 47, 73, 0.58);
+    color: #bae6fd;
+  }
+
+  #papers article .bg-zinc-100,
+  #papers article .dark\:bg-zinc-900 {
+    border: 1px solid rgba(148, 163, 184, 0.14);
+    background: rgba(15, 23, 42, 0.72);
+    color: #cbd5e1;
   }
 
   @media (max-width: 640px) {
