@@ -1,7 +1,15 @@
 ---
 title: "CAST3D: Customizing Arbitrary 2D Assets into 3D World"
 authors:
+  - Yukai Sun
   - me
+  - Ming Kong
+  - Luyuan Chen
+  - Zhijie Xu
+  - Jinjian Zhang
+  - Jie Liu
+  - Feng Zhang
+  - Qiang Zhu
 date: "2026-06-24T00:00:00Z"
 publication_types: ["paper-conference"]
 publication:
@@ -19,4 +27,4 @@ links:
     url: /uploads/papers/cast3d-eccv26.pdf
 ---
 
-Accepted by ECCV 2026. The PDF will be updated to the camera-ready version after release.
+Accepted by ECCV 2026.

@@ -2,6 +2,12 @@
 title: "AGE: Agentic Gaussian Editing in 3D Scenarios"
 authors:
   - me
+  - Tesi Lin
+  - Mingwei Wei
+  - Yukai Sun
+  - Mengxu Lu
+  - Ming Kong
+  - Qiang Zhu
 date: "2026-06-24T00:00:00Z"
 publication_types: ["paper-conference"]
 publication:
@@ -19,4 +25,4 @@ links:
     url: /uploads/papers/age-eccv26.pdf
 ---
 
-Accepted by ECCV 2026. The PDF will be updated to the camera-ready version after release.
+Accepted by ECCV 2026.
