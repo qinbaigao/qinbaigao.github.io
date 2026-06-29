@@ -9,7 +9,7 @@ authors:
   - Ming Kong
   - Zhenhong Du
   - Qiang Zhu
-date: "2026-01-01T00:00:00Z"
+date: "2026-01-02T00:00:00Z"
 publication_types: ["paper-conference"]
 publication:
   name: "International Conference on Learning Representations"
