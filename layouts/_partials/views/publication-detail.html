@@ -12,7 +12,7 @@
 <article class="publication-card{{ if $spotlight }} publication-spotlight{{ end }} w-full rounded-lg border border-zinc-200/80 bg-white/90 p-5 shadow-sm transition-colors hover:border-primary-300 dark:border-zinc-800 dark:bg-zinc-950/70 dark:hover:border-primary-700">
   <div class="flex flex-col gap-5 sm:flex-row">
     {{ with $resource }}
-      {{ $image := .Fill "480x270 Center" }}
+      {{ $image := .Fill "960x540 Center" }}
       <a class="publication-thumbnail block overflow-hidden rounded-md border border-zinc-200 bg-zinc-50 sm:flex-none dark:border-zinc-800 dark:bg-zinc-900" href="{{ $item.RelPermalink }}" aria-label="{{ $item.Title | plainify }}">
         <img class="aspect-video h-full w-full object-cover transition-transform duration-300 hover:scale-105" src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" loading="lazy" decoding="async" alt="{{ $item.Title | plainify }} thumbnail">
       </a>
