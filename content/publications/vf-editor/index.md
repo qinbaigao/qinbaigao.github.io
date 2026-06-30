@@ -8,7 +8,8 @@ authors:
   - Mengxu Lu
   - Qiang Zhu
 date: "2026-01-02T00:00:00Z"
-weight: 130
+weight: 110
+spotlight: true
 author_notes:
   - "Equal contribution"
   - "Equal contribution"

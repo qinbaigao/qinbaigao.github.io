@@ -11,6 +11,7 @@ authors:
   - Qiang Zhu
 date: "2026-01-02T00:00:00Z"
 weight: 120
+spotlight: true
 publication_types: ["paper-conference"]
 publication:
   name: "International Conference on Learning Representations"

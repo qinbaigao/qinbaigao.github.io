@@ -7,7 +7,8 @@ authors:
   - Mengxu Lu
   - Qiang Zhu
 date: "2025-04-03T00:00:00Z"
-weight: 200
+weight: 130
+spotlight: true
 publication_types: ["article-journal"]
 publication:
   name: "IEEE Transactions on Multimedia"

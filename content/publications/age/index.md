@@ -10,6 +10,7 @@ authors:
   - Qiang Zhu
 date: "2026-06-24T00:00:00Z"
 weight: 100
+spotlight: true
 publication_types: ["paper-conference"]
 publication:
   name: "European Conference on Computer Vision"
