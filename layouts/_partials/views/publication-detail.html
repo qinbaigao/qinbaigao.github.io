@@ -45,6 +45,7 @@
           {{ $display := $profile.title | default $raw }}
           {{ $display_slug := $display | urlize }}
           {{ $is_me := or (eq $raw "me") (eq $slug "me") (eq $slug "hao-qin") (eq $display_slug "hao-qin") }}
+          {{ if $is_me }}{{ $display = "Hao Qin" }}{{ end }}
           {{ $note := "" }}
           {{ if and $notes (lt $index (len $notes)) }}{{ $note = index $notes $index }}{{ end }}
           {{ $is_equal := in (lower $note) "equal" }}
