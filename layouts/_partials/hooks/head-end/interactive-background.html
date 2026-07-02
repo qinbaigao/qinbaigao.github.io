@@ -152,27 +152,34 @@
     margin-top: -1rem;
   }
 
+  #internships > .flex {
+    width: 100%;
+    max-width: 72rem;
+  }
+
   #internships .prose {
-    width: min(100%, 56rem);
-    max-width: 56rem;
+    width: min(100%, 72rem);
+    max-width: 72rem;
   }
 
   #internships .internship-list {
     display: grid;
-    gap: 0.75rem;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1rem;
     width: 100%;
   }
 
   #internships .internship-item {
     display: grid;
-    grid-template-columns: minmax(0, 1fr);
-    gap: 0.65rem;
-    align-items: center;
+    min-height: 11rem;
+    grid-template-rows: minmax(0, 1fr) auto;
+    gap: 1rem;
+    align-items: stretch;
     position: relative;
     overflow: hidden;
     border: 1px solid rgba(125, 211, 252, 0.16);
     border-radius: 0.5rem;
-    padding: 1rem;
+    padding: 1.1rem;
     background:
       linear-gradient(145deg, rgba(8, 13, 25, 0.9), rgba(4, 7, 14, 0.84)),
       radial-gradient(circle at 100% 0%, rgba(56, 189, 248, 0.1), transparent 16rem);
@@ -193,7 +200,7 @@
   #internships .internship-company {
     margin: 0;
     color: #f8fafc;
-    font-size: 1.05rem;
+    font-size: 1.18rem;
     font-weight: 700;
     line-height: 1.35;
   }
@@ -207,6 +214,7 @@
 
   #internships .internship-time {
     width: fit-content;
+    align-self: end;
     border: 1px solid rgba(125, 211, 252, 0.16);
     border-radius: 0.375rem;
     padding: 0.35rem 0.55rem;
@@ -350,9 +358,12 @@
   }
 
   @media (min-width: 640px) {
+    #internships .internship-list {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
     #internships .internship-item {
-      grid-template-columns: minmax(0, 1fr) auto;
-      padding: 1rem 1.1rem;
+      padding: 1.15rem;
     }
 
     #papers article .publication-thumbnail {

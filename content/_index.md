@@ -24,7 +24,7 @@ sections:
   - block: markdown
     id: internships
     content:
-      title: 实习经历
+      title: Internships
       text: |
         <div class="internship-list">
           <div class="internship-item">
@@ -43,7 +43,7 @@ sections:
           </div>
           <div class="internship-item">
             <div>
-              <div class="internship-company">美团 AI</div>
+              <div class="internship-company">美团</div>
               <div class="internship-team">视觉智能部 · AutoML 算法组 · YOLOv6 开发</div>
             </div>
             <div class="internship-time">2022.04 - 2022.07</div>
