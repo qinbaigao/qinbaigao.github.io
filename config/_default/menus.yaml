@@ -2,6 +2,9 @@ main:
   - name: About
     url: /
     weight: 10
+  - name: Internships
+    url: /#internships
+    weight: 20
   - name: Publications
     url: /#papers
-    weight: 20
+    weight: 30
