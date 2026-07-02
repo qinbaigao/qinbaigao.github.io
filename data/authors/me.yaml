@@ -16,12 +16,12 @@ bio: |
   I am a Ph.D. student in the College of Computer Science and Technology at
   Zhejiang University. My research focuses on spatial intelligence, 3D-AIGC,
   multi-agent systems, latent reasoning for VLMs, and
-  self-supervised learning, with a broader interest in building intelligent
+  contrastive learning, with a broader interest in building intelligent
   systems that connect perception, reasoning, generation, and controllable
   creation in the real world.
 
 affiliations:
-  - name: Zhejiang University
+  - name: 浙江大学
     url: "https://www.zju.edu.cn/english/"
 
 links:
