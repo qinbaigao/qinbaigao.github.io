@@ -2,7 +2,7 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Hao Qin
+  display: 秦皓
   given: Hao
   family: Qin
   alternate: ""
