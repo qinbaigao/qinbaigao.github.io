@@ -55,6 +55,22 @@ sections:
     design:
       spacing:
         padding: ["1rem", "0", "1rem", "0"]
+  - block: collection
+    id: papers
+    content:
+      title: Publications
+      text: ''
+      count: 0
+      filters:
+        folders:
+          - publications
+        exclude_featured: false
+      sort_by: Weight
+      sort_ascending: true
+    design:
+      view: publication-detail
+      show_date: false
+      show_read_time: false
   - block: markdown
     id: education
     content:
@@ -80,20 +96,4 @@ sections:
     design:
       spacing:
         padding: ["1rem", "0", "1rem", "0"]
-  - block: collection
-    id: papers
-    content:
-      title: Publications
-      text: ''
-      count: 0
-      filters:
-        folders:
-          - publications
-        exclude_featured: false
-      sort_by: Weight
-      sort_ascending: true
-    design:
-      view: publication-detail
-      show_date: false
-      show_read_time: false
 ---
