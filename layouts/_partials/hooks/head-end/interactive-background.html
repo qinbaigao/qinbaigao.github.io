@@ -120,6 +120,7 @@
 
   #section-resume-biography-3 h1,
   #internships .text-3xl,
+  #education .text-3xl,
   #papers .text-3xl {
     color: #f8fbff;
     text-shadow: 0 0 26px rgba(56, 189, 248, 0.22);
@@ -159,6 +160,10 @@
     font-weight: 700;
   }
 
+  #section-resume-biography-3 .resume-biography .md\:col-span-8 > .mb-16:last-child {
+    display: none;
+  }
+
   #section-resume-biography-3 .resume-biography .grid.grid-cols-1.md\:grid-cols-2.xl\:grid-cols-3.gap-6 > .group {
     min-height: 13rem;
   }
@@ -194,24 +199,36 @@
     margin-top: -1rem;
   }
 
+  #education {
+    margin-top: -0.25rem;
+  }
+
   #internships > .flex {
     width: 100%;
     max-width: 72rem;
   }
 
-  #internships .prose {
+  #internships .prose,
+  #education .prose {
     width: min(100%, 72rem);
     max-width: 72rem;
   }
 
-  #internships .internship-list {
+  #education > .flex {
+    width: 100%;
+    max-width: 72rem;
+  }
+
+  #internships .internship-list,
+  #education .education-list {
     display: grid;
     grid-template-columns: minmax(0, 1fr);
     gap: 1rem;
     width: 100%;
   }
 
-  #internships .internship-item {
+  #internships .internship-item,
+  #education .education-item {
     display: grid;
     min-height: 11rem;
     grid-template-rows: minmax(0, 1fr) auto;
@@ -230,7 +247,8 @@
     -webkit-backdrop-filter: blur(12px);
   }
 
-  #internships .internship-item::before {
+  #internships .internship-item::before,
+  #education .education-item::before {
     content: "";
     position: absolute;
     inset: 0 auto 0 0;
@@ -239,7 +257,8 @@
     opacity: 0.76;
   }
 
-  #internships .internship-company {
+  #internships .internship-company,
+  #education .education-degree {
     margin: 0;
     color: #f8fafc;
     font-size: 1.18rem;
@@ -247,7 +266,8 @@
     line-height: 1.35;
   }
 
-  #internships .internship-team {
+  #internships .internship-team,
+  #education .education-school {
     margin-top: 0.3rem;
     color: #cbd5e1;
     font-size: 0.94rem;
@@ -261,7 +281,8 @@
     line-height: 1.45;
   }
 
-  #internships .internship-time {
+  #internships .internship-time,
+  #education .education-time {
     width: fit-content;
     align-self: end;
     border: 1px solid rgba(125, 211, 252, 0.16);
@@ -407,11 +428,13 @@
   }
 
   @media (min-width: 640px) {
-    #internships .internship-list {
+    #internships .internship-list,
+    #education .education-list {
       grid-template-columns: repeat(3, minmax(0, 1fr));
     }
 
-    #internships .internship-item {
+    #internships .internship-item,
+    #education .education-item {
       padding: 1.15rem;
     }
 

@@ -55,6 +55,31 @@ sections:
     design:
       spacing:
         padding: ["1rem", "0", "1rem", "0"]
+  - block: markdown
+    id: education
+    content:
+      title: Education
+      text: |
+        <div class="education-list">
+          <div class="education-item">
+            <div class="education-degree">Ph.D. in Artificial Intelligence</div>
+            <div class="education-school">浙江大学</div>
+            <div class="education-time">2023.09 - 2027.06</div>
+          </div>
+          <div class="education-item">
+            <div class="education-degree">M.S. in Pattern Recognition</div>
+            <div class="education-school">山东大学</div>
+            <div class="education-time">2020.09 - 2023.06</div>
+          </div>
+          <div class="education-item">
+            <div class="education-degree">B.Eng. in Automation</div>
+            <div class="education-school">山东大学</div>
+            <div class="education-time">2016.09 - 2020.06</div>
+          </div>
+        </div>
+    design:
+      spacing:
+        padding: ["1rem", "0", "1rem", "0"]
   - block: collection
     id: papers
     content:
