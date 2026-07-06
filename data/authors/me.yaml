@@ -25,14 +25,13 @@ bio: |
   image-to-3D generation, 3D-aware object placement, and representation
   learning for action and gait recognition.
 
+  Email: 12321248@zju.edu.cn
+
 affiliations:
   - name: 浙江大学
     url: "https://www.zju.edu.cn/english/"
 
-links:
-  - icon: at-symbol
-    url: mailto:12321248@zju.edu.cn
-    label: E-mail Me
+links: []
 
 education:
   - degree: Ph.D. in Artificial Intelligence
