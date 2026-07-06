@@ -20,6 +20,11 @@ bio: |
   systems that connect perception, reasoning, and controllable creation in
   the world.
 
+  My publications include work on agentic 3D Gaussian editing, flexible 3D
+  Gaussian editing, robust native watermarking for 3D Gaussian Splatting,
+  image-to-3D generation, 3D-aware object placement, and representation
+  learning for action and gait recognition.
+
 affiliations:
   - name: 浙江大学
     url: "https://www.zju.edu.cn/english/"
