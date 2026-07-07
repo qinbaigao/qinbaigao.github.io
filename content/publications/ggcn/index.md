@@ -14,7 +14,7 @@ author_notes:
 publication_types: ["article-journal"]
 publication:
   name: "Journal of Visual Communication and Image Representation"
-  short_name: "JVCIR"
+  short_name: "JVCIR 2026"
 abstract: "GGCN is a robust gait recognition model that uses a generate network, encoder network, and feature mapping network to reduce covariate interference and learn more discriminative gait representations."
 summary: "A generate-network and CNN framework for robust gait recognition."
 tags:

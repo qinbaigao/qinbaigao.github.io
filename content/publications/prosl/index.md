@@ -13,7 +13,7 @@ weight: 220
 publication_types: ["article-journal"]
 publication:
   name: "Machine Learning"
-  short_name: "Machine Learning"
+  short_name: "Machine Learning 2025"
 abstract: "ProSL progressively optimizes pseudo-label generation in self-supervised contrastive learning for skeleton-based action recognition. It builds a semantic codebook from clustering and iteratively improves representation learning on multiple downstream tasks."
 summary: "Progressive semantic learning for unsupervised skeleton-based action recognition."
 tags:

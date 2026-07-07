@@ -12,7 +12,7 @@ spotlight: true
 publication_types: ["article-journal"]
 publication:
   name: "IEEE Transactions on Multimedia"
-  short_name: "TMM"
+  short_name: "TMM 2025"
 abstract: "DD3G distills a multi-view diffusion model into a 3D Gaussian generator. It aligns teacher and student representation spaces, introduces a pattern extraction and progressive decoding generator, and produces 3D Gaussians from a single image in 0.06 seconds."
 summary: "Fast single-image-to-3D Gaussian generation via multi-view diffusion distillation."
 tags:

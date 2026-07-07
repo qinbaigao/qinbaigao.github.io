@@ -14,7 +14,7 @@ author_notes:
 publication_types: ["article-journal"]
 publication:
   name: "IEEE Transactions on Circuits and Systems for Video Technology"
-  short_name: "TCSVT"
+  short_name: "TCSVT 2022"
 abstract: "RPNet introduces a Part Feature Relationship Extractor for gait recognition, capturing multi-scale body-part features and adjacent part relationships to improve robustness across occlusion, clothing, and view variations."
 summary: "Part-relationship modeling for robust gait recognition."
 tags:

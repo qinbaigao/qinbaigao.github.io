@@ -16,7 +16,7 @@ author_notes:
 publication_types: ["article-journal"]
 publication:
   name: "Machine Learning"
-  short_name: "Machine Learning"
+  short_name: "Machine Learning 2025"
 abstract: "This work studies semantic-aware positive sample generation for contrastive learning through multi-source and multi-modal prompt alignment. It uses large multimodal model capabilities to improve semantic consistency and sample diversity."
 summary: "Semantic-aware contrastive learning with multi-source, multi-modal prompt alignment."
 tags:
